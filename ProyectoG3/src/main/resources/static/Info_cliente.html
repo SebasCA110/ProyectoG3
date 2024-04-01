@@ -6,7 +6,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 
 <html>
     <head>
-        <title>K'alzado</title>
+        <title>WizTheWizar</title>
         <meta charset="UTF-8">
         <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
         <link href="css/menu.css" rel="stylesheet" type="text/css"/>
@@ -14,35 +14,26 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
     <body>
         <header class="header">
             <nav class="nav">
-                <h1><a href="index.html" class="nav-link logo">K'alzado</a></h1>
+                <h1><a href="index.html" class="nav-link logo">WizTheWizar</a></h1>
                 <ul class="nav-menu">
-                    <li class="nav-menu-item"><a href="Recuperar_Contrasena.html" class="nav-link nav-menu-link">&triangleleft;</a></li>
-                    <li class="nav-menu-item"><a href="index.html" class="nav-link nav-menu-link">&triangleright;</a></li>
-                    <li class="nav-menu-item"><a href="audios.html" class="nav-link nav-menu-link">Login</a></li>
-                    <li class="nav-menu-item"><a href="videos.html" class="nav-link nav-menu-link">Pagina_Inicio</a></li>
-                    <li class="nav-menu-item"><a href="Iframe.html" class="nav-link nav-menu-link">passwordedit</a></li>
-                    <li class="nav-menu-item"><a href="Formularios.html" class="nav-link nav-menu-link">a</a></li>
+                    <li class="nav-menu-item"><a href="Contactos.html" class="nav-link nav-menu-link">&triangleleft;</a></li>
+                    <li class="nav-menu-item"><a href="Pagina_Inicio.html" class="nav-link nav-menu-link">&triangleright;</a></li>
+                    <li class="nav-menu-item"><a href="Contactos.html" class="nav-link nav-menu-link">Contactos</a></li>
+                    <li class="nav-menu-item"><a href="Info_cliente.html" class="nav-link nav-menu-link">InfoCliente</a></li>
+                    <li class="nav-menu-item"><a href="UbicacionTienda.html" class="nav-link nav-menu-link">Ubicacion</a></li>
                 </ul> 
             </nav>
+            <div class="cliente">
+                <div class="nombre"><%= user.getidUser() %></div>
+                <div class="detalle"><span>Nombre: </span> <%= user.getnombre() %></div>
+                <div class="detalle"><span>Email: </span> <%= user.getemail() %></div>
+            </div>
         </header>
-        <aside>
-            <h2 class="Noticia"> Informacion  </h2> </br>
-        </aside>
-        <section>
-            <article>
-                <div style="text-align: center">
-                    <p><strong> </strong></br>   </p></br>
-                    <p> </p></br>
-                    <p></p></br>
-                    <figure>
-                    </figure>
-                </div>
-                <br>
-                <br>
-                <p><strong><u><i>Última Línea</i></u></strong></p>  </article> 
-        </section>
-
     </body>
-</html><!-- comment -->
+    <footer>
+            <p>Derechos de autor © 2024 - Empresa WizTheArt</p>
+        </footer>
+
+</html>
 
 
